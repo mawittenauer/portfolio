@@ -1,7 +1,47 @@
+/******************
+GENERAL
+******************/
+
+body {
+  position: absolute;
+  width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oxygen';
 }
 
-p {
+p, a, li {
   font-family: 'Source Sans Pro';
+  font-size: 14px;
+}
+
+/******************
+NAVIGATION
+******************/
+
+#main-nav {
+  width: 100px;
+  background-color: #777;
+  color: #fff;
+  position: absolute;
+  left: -100px;
+  height: 100%;
+}
+
+#main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main-nav ul li {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid #888;
+}
+
+#main-nav ul li a {
+  color: #fff;
 }
