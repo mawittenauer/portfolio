@@ -81,10 +81,12 @@ FOOTER
 
 footer {
   text-align: center;
+  background-color: #F5F5F5;
+  padding: 20px 0;
 }
 
 footer a img {
-  width: 80px;
+  width: 60px;
 }
 
 /******************
