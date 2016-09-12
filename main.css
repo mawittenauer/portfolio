@@ -2,6 +2,10 @@
 GENERAL
 ******************/
 
+img {
+  max-width: 100%;
+}
+
 body {
   position: absolute;
   width: 100%;
@@ -11,9 +15,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Oxygen';
 }
 
-p, a, li {
+p, a, li, label, input, textarea {
   font-family: 'Source Sans Pro';
   font-size: 18px;
+}
+
+ul, li {
+  list-style: none;
 }
 
 /******************
@@ -35,13 +43,11 @@ header {
 }
 
 #main-nav ul {
-  list-style: none;
   margin: 0;
   padding: 0;
 }
 
 #main-nav ul li {
-  list-style: none;
   margin: 0;
   padding: 10px;
   border-bottom: 1px solid #888;
@@ -89,9 +95,82 @@ JUMBOTRON
 ABOUT
 ******************/
 
+#about {
+  padding: 10px 0 30px;
+}
+
 #about p {
-  width: 80%;
+  width: 70%;
   line-height: 1.5;
   margin: auto;
+}
+
+/******************
+PROJECTS
+******************/
+
+#projects {
+  background-color: #F5F5F5;
+  padding: 10px 0;
+}
+
+#projects ul {
+  margin: 0;
+  padding: 0;
+  width: 75%;
+  margin: auto;
+}
+
+.well {
+  height: 180px;
+  background-size: cover;
+  color: #fff;
+}
+
+.sports-scheduler {
+  background-image: url('img/sports-scheduler.jpeg');
+}
+
+.bakery-site {
+  background-image: url('img/bakery-site.jpeg');
+}
+
+/******************
+CONTACT
+******************/
+
+#contact {
+  padding: 10px 0 30px;
+}
+
+#contact-form {
+  width: 80%;
+  margin: auto;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  outline: 1px solid #eee;
+  border: 1px solid #eee;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  border: none;
+  height: 50px;
+  margin-top: 20px;
+  color: #fff;
 }
 
