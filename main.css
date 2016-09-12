@@ -76,6 +76,18 @@ header {
 }
 
 /******************
+FOOTER
+******************/
+
+footer {
+  text-align: center;
+}
+
+footer a img {
+  width: 80px;
+}
+
+/******************
 JUMBOTRON
 ******************/
 
