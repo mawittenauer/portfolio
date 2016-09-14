@@ -64,11 +64,15 @@
   
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   #projects ul li {
     width: 30%;
     margin: 1.6666666666666%;
     float: left;
+  }
+  
+  .container {
+    width: 70%;
   }
   
 }
