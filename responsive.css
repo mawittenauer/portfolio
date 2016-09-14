@@ -15,6 +15,7 @@
     width: 100%;
     background-color: #fff;
     border-bottom: 1px solid #000;
+    height: 50px;
   }
   
   #main-nav ul {
@@ -39,8 +40,16 @@
   ******************/
   
   #jumbotron {
-    height: 94%;
-    padding: 300px 0;
+    height: 97%;
+    padding: 0;
+  }
+  
+  #jumbotron h1 {
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    width: 100%;
+    left: 0%;
   }
   
   /******************
