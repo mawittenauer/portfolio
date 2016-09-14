@@ -39,12 +39,27 @@
   ******************/
   
   #jumbotron {
-    height: 95%;
+    height: 94%;
     padding: 300px 0;
+  }
+  
+  /******************
+  PROJECTS
+  ******************/
+  
+  #projects ul li {
+    width: 45%;
+    margin: 2.5%;
+    float: left;
   }
   
 }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
+  #projects ul li {
+    width: 30%;
+    margin: 1.6666666666666%;
+    float: left;
+  }
   
 }
