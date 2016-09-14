@@ -34,4 +34,17 @@
     display: none;
   }
   
+  /******************
+  JUMBOTRON
+  ******************/
+  
+  #jumbotron {
+    height: 95%;
+    padding: 300px 0;
+  }
+  
+}
+
+@media (min-width: 900px) {
+  
 }
