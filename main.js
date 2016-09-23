@@ -10,4 +10,8 @@ $(document).ready(function() {
       left: '0px'
     }, 300);
   });
+  
+  $('#main-nav a').on("click", function() {
+    $('body').css("left", '0px');  
+  });
 });
