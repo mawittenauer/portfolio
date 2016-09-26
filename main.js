@@ -11,7 +11,7 @@ $(document).ready(function() {
     }, 300);
   });
   
-  $('#main-nav a').on("click", function() {
+  $('.nav-link').on("click", function() {
     $('body').css("left", '0px');  
   });
 });
