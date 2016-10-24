@@ -131,6 +131,15 @@ ABOUT
 PROJECTS
 ******************/
 
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #F5F5F5;
+  color: none;
+  width: 100%;
+}
+
 #projects {
   background-color: #F5F5F5;
   padding: 10px 0;

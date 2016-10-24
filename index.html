@@ -43,32 +43,32 @@
       <h2 class="text-center">Projects</h2>
       <ul>
         <li>
-          <a target="_blank" href="http://www.mikewittenauer.com/sports_schedule/">
+          <button type="button" data-toggle="modal" data-target="#sportsScheduler">
             <div class="well sports-scheduler">
               <h1 class="text-center">Sports Schedule App</h2>
             </div>
-          </a>
+          </button>
         </li>
         <li>
-          <a target="_blank" href="http://www.jillsmixingbowl.com">
+          <button type="button" data-toggle="modal" data-target="#bakerySite">
             <div class="well bakery-site">
               <h1 class="text-center">Bakery Site</h2>
             </div>
-          </a>
+          </button>
         </li>
         <li>
-          <a target="_blank" href="https://fathomless-escarpment-8724.herokuapp.com/new_game">
+          <button type="button" data-toggle="modal" data-target="#blackJack">
             <div class="well card-game">
               <h1 class="text-center">Black Jack App</h2>
             </div>
-          </a>
+          </button>
         </li>
         <li>
-          <a target="_blank" href="https://enigmatic-anchorage-8542.herokuapp.com/game">
+          <button type="button" data-toggle="modal" data-target="#hangMan">
             <div class="well hang-man">
               <h1 class="text-center">Hang Man App</h2>
             </div>
-          </a>
+          </button>
         </li>
       </ul>
       </div>
@@ -107,4 +107,81 @@
       </a>
     </footer>
   </body>
+  
+  <div class="modal fade" id="sportsScheduler" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Sports Scheduler App</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            This is a sports schedule app I built with HTML, CSS, jQuery and the sports database api. Visit the site or check out the code below.
+            <br>
+            <br>
+            <a target="_blank" href="http://www.mikewittenauer.com/sports_schedule" class="btn btn-success">Site</a>
+            <a target="_blank" href="https://github.com/mawittenauer/sports-schedule-app" class="btn btn-success">Github</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="bakerySite" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Bakery Site</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            This is a content managed site I built for a client. The client runs a bakery out of her home and wanted a site for her customers to see her work and get in contact with her. On the back end I used Ruby/Ruby on Rails and on the front end I used HTML, CSS and jQuery.
+            <br>
+            <br>
+            <a target="_blank" href="http://www.jillsmixingbowl.com" class="btn btn-success">Site</a>
+            <a target="_blank" href="https://github.com/mawittenauer/jills-mixing-bowl" class="btn btn-success">Github</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="blackJack" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Black Jack App</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            This is a black jack app I built using Ruby and the Sinatra framework. I used the session to store the cards and user score.
+            <br>
+            <br>
+            <a target="_blank" href="https://fathomless-escarpment-8724.herokuapp.com/new_game" class="btn btn-success">Site</a>
+            <a target="_blank" href="https://github.com/mawittenauer/sinatra-blackjack-game" class="btn btn-success">Github</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="hangMan" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Hang Man App</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            This is hang man app I built using Ruby and the Sinatra framework. I used the session to store correct answer and user guesses.
+            <br>
+            <br>
+            <a target="_blank" href="https://enigmatic-anchorage-8542.herokuapp.com" class="btn btn-success">Site</a>
+            <a target="_blank" href="https://github.com/mawittenauer/sinatra-hangman-game" class="btn btn-success">Github</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 </html>
